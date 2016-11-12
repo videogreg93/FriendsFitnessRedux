@@ -1,0 +1,212 @@
+@font-face {
+    font-family: CeraPRO;
+    src: url(../fonts/CeraPRO-Regular.ttf);
+}
+
+@font-face {
+    font-family: CeraPRO;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+    font-weight: bold;
+}
+
+
+
+.logo {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.header {
+        margin: auto;
+    max-width: 1024px;
+}
+
+.phone {
+    margin-left: 113px;
+    margin-top: 10px;
+}
+
+.slogan {
+    font-family: CeraPRO;
+    font-weight: bold;
+    margin-top: 110px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #00B083;
+}
+
+.sloganContact {
+    font-family: CeraPRO;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #00B083;
+}
+
+.slogan2 {
+        font-family: CeraPRO;
+    font-weight: bold;
+        margin-top: 70px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #00B083;
+    padding-bottom:50px;
+}
+
+.slogan3 {
+    font-family: CeraPRO;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin-top: 40%;
+    font-weight: bold;
+}
+
+.slogan4 {
+    font-family: CeraPRO;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.p1 {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: CeraPRO;
+}
+
+.purple {
+    background-color: #2B2770;
+    padding-top: 97px;
+    padding-bottom: 88px;
+}
+
+.purpleSmall {
+    background-color: #2B2770;
+
+}
+
+.p2 {
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 341px;
+    font-family: CeraPRO;
+}
+
+.icons {
+    max-width: 70px;
+    max-height:70px;
+}
+
+.p3 {
+    padding-top: 50px;
+    font-family: CeraPRO;
+    font-size: 20px;
+    line-height: 23px;
+    color: #00B083;
+}
+
+.p4 {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: CeraPRO;
+    padding-bottom: 40%;
+}
+
+.gymImage {
+    background-image: url("../img/gym2.jpg");
+    max-height: 700px;
+    
+}
+
+.lightGreen{
+    background-color: #00B083;
+    padding-top: 5%;
+}
+
+.p5 {
+    padding-top: 50px;
+    font-family: CeraPRO;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    text-align: left;
+}
+
+.footer > p {
+    font-family: CeraPRO;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #00B083;
+    font-size: 12px;
+}
+
+.footer > p > a > img {
+    width: 1.6%;
+    height: 1.6%;
+}
+
+.header > a >  img {
+    width: 3%;
+    height: 3%;
+    margin-top: 6%;
+    float: right;
+}
+
+.navLinks {
+    font-size: 14px;
+    font-family: CeraPRO;
+    color: #2B2770;
+    float:right;
+    margin-top: 6.7%;
+    margin-right: 6%;
+}
+
+.contactForm > input {
+    border-color: #00B083;
+    margin-bottom: 6%;
+    border-width: 2px;
+}
+
+.contactForm > textarea {
+    border-color: #00B083;
+    border-width: 2px;
+    min-height: 100px;
+}
+
+.formSubmit {
+    margin-bottom: 0px;
+    margin-left: 28%;
+    background-color: #00B083;
+    width:45%;
+    color: white;
+    font-family: CeraPRO;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+::-webkit-input-placeholder {
+   color: #2B2770;
+   opacity: 0.8;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #2B2770;
+   opacity: 0.8;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #2B2770;
+   opacity: 0.8;
+}
+
+:-ms-input-placeholder {  
+   color: #2B2770; 
+   opacity: 0.8;
+}
