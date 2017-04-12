@@ -97,6 +97,12 @@
     font-family: CeraPRO;
 }
 
+.h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
 .icons {
     max-width: 70px;
     max-height:70px;
