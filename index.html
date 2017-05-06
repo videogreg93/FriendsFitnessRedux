@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="CreativeLinkEffects/css/component.css" />
     <link rel="stylesheet" href="icons/foundation-icons.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+        <script>
+      $(function() {
+        $("#slider").responsiveSlides();
+      });
+</script>
   </head>
     <body>
         <div class = "header hide-for-small-only">
@@ -47,6 +55,7 @@
         <div class = "row" style = "height: 417px;">
             <div class = "small-12 medium-6 columns">
                 <h4 class = "slogan" style = "">AVEC FRIENDS FITNESS, TROUVER UNE OPPORTUNITÉ DE BOUGER N'AURA JAMAIS ÉTÉ AUSSI SIMPLE</h4>
+                <br>
                 <p class = "p1">
                     Friends Fitness est une application offrant des groupes variés touchant plus de 50 sports intérieurs et extérieurs.
                 <p>
@@ -60,16 +69,20 @@
                 <div class = "small-12 medium-6 columns">
                 <h4 class="h2">Volet Récréatif</h4>
                     <p class = "p2">
-                    L'application comporte un volet récréatif ou tout le monde a la possibilté de créer des groupes gratuitement: 
-                    randonnée de motoneige, partie d'hockey, entraînement musculaire, etc.
+                    L’application mobile Friends Fitness permet de créer des évènements sportifs de votre choix de manière gratuite, et ce, partout où vous êtes. 
+                    Vous êtes seul pour pratiquer le sport qui vous tient à cœur ? Pas de problème créez un évènement sur l’application et faites des rencontres 
+                    sportives afin de rester motivé.
                     </p>
                 </div>
                 
                 <div class = "small-12 medium-6 columns">
                 <h4 class="h2">Volet Prémium</h4>
                     <p class = "p2">
-                        Offrez des services payant et obtenez accès à une variété de fonctionnalités avec les forfaits prémiums.
-                        Idéal pour les entraîneurs personnels ainsi que les entreprises voulant aller chercher un plus grand nombre de clients.
+                        Vous êtes une entreprise ou vous donnez des cours privés à votre domicile ? 
+                        Friends Fitness vous offre la chance d’avoir de la visibilité à un public de masse, 
+                        un système transactionnel et les outils nécessaires afin de gérer votre petite ou moyenne
+                        entreprise (graphiques de ventes etc.). Les usagers peuvent ensuite rejoindre vos cours et payer 
+                        sur l’application.
                     </p>
                 </div>
             </div>
@@ -90,11 +103,11 @@
             </div>
             
         </div>
-        <div class = "gymImage">
+        <div class = "gymImage">    
         	<div class="row">
         		<div class = "small-12 medium-7 columns">
-        		    <p class="slogan3">
-        				QUE VOUS SOYEZ À MONTRÉAL, EN FLORIDE, À PARIS OU MÊME AU JAPON, FRIENDS FITNESS EST LÀ POUR VOUS!
+        		    <p class="slogan3" style = "text-transform: uppercase;">
+        				Vivez l’expérience Friends Fitness partout où vous soyez avec des gens qui partage le même but que vous, s’amuser tout en bougeant !
         			</p>
         			<p class = "p4">
         				Le but de Friends Fitness est de bâtir une communauté sportive mondiale afin de toujours bouger et rester motivé.
@@ -105,7 +118,8 @@
         </div>
         <div class = "purpleSmall">
         	<div class="row text-center">
-        		<p class="slogan4">Friends Fitness n’est pas seulement une application à nature sociale, elle apporte aussi un soutien technique et technologique aux entreprises hors du commun 
+        		<p class="slogan4">Friends Fitness n’est pas seulement une application mobile profitant
+                aux usagers, elle est aussi un moyen hors du commun d’accroître la visibilité et les revenues des entreprises sportives.
         		</p>
         	</div>
         </div>
@@ -114,13 +128,13 @@
         		<div class="small-12 medium-4 columns">
         			<img src="img/dollar.png" class = "icons">
         			<p class="p5" style="color: white">
-        				Système transactionnel simple et rapide afin de facilement collecter vos montants.
+        				Faites payer directement les usagers sur l’application, ce qui permet un meilleur contrôle des transactions
         			</p>
         		</div>
         		<div class="small-12 medium-4 columns">
         			<img src="img/chart.png" class = "icons">
         			        			<p class="p5" style="color: white">
-        				Informations et statistiques pratiques afin de mieux comprendre votre clientelle et de vous ajuster en conséquence.
+        				Graphiques de ventes et de statistiques
         			</p>
         		</div>
         		<div class="small-12 medium-4 columns">
@@ -130,6 +144,7 @@
         			</p>
         		</div>	
         	</div>
+            <h1 class = "slogan4" style = "text-align: center; margin-top:40px; padding-bottom: 30px; margin-bottom:0px;">Lancement prévu : Été 2017</h1>
         </div>
         <div class = "row footer text-center hide-for-small-only">
         	<p style= "margin-left: 2%;">
@@ -160,5 +175,6 @@
     <script src="js/foundation/foundation.equalizer.js"></script>
     <script src="js/app.js"></script>
 	<script>$(document).foundation();</script>
+
   </body>
 </html>
